@@ -1,4 +1,65 @@
+/* NAVBAR CSS */
 #flexmenu {
   display: flex;
   margin-right: 2rem;
+}
+li:hover {
+  font-size: 20px;
+  font-weight: bolder;
+}
+/* SERVICES CSS */
+#hello {
+  margin: auto;
+  width: 10rem;
+  font-size: 50px;
+}
+#presentation {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40rem;
+}
+#service {
+  margin: auto;
+  width: 10rem;
+  font-size: 30px;
+  font-weight: bolder;
+}
+#card1 {
+  width: 20rem;
+  height: 20rem;
+}
+#card1:hover {
+  box-shadow: 4px 4px 4px #0275d8;
+  border-color: #0275d8;
+  width: 21rem;
+  height: 21rem;
+}
+#flexcard {
+  display: flex;
+  margin-left: 14rem;
+}
+h5 {
+  text-align: center;
+}
+.card-text {
+  text-align: center;
+}
+#imagecard {
+  text-align: center;
+}
+#deuxieme {
+  margin: auto;
+}
+@media screen and (max-width: 450px) {
+  #presentation {
+    margin-left: auto;
+    margin-right: auto;
+    width: 22rem;
+  }
+  #flexcard {
+    display: initial;
+  }
+  #card1 {
+    margin-left: 3rem;
+  }
 }
