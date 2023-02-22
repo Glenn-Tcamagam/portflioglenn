@@ -1,4 +1,8 @@
 /* NAVBAR CSS */
+img:hover {
+  width: 100px;
+  height: 100px;
+}
 #flexmenu {
   display: flex;
   margin-right: 2rem;
