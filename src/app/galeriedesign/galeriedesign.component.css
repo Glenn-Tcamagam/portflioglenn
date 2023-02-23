@@ -7,21 +7,11 @@
 }
 
 img {
-  height: 350px;
-}
-
-#emojis {
-  height: 40px;
-  margin-top: -0.5rem;
-}
-h5 {
-  font-weight: bolder;
-  text-align: center;
-  margin-top: 0.5rem;
+  height: 400px;
 }
 
 @media screen and (max-width: 820px) {
-  #notregalerie {
+  #mesdesign {
     margin-left: 22rem;
   }
   img {
@@ -30,10 +20,11 @@ h5 {
 }
 
 @media screen and (max-width: 450px) {
-  #notregalerie {
-    margin-left: 7rem;
+  #mesdesign {
+    margin-left: 8rem;
+    width: 16ch;
   }
   img {
-    height: 350px;
+    height: 400px;
   }
 }

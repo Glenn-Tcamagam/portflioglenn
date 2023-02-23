@@ -1,7 +1,7 @@
 /* NAVBAR CSS */
 img:hover {
-  width: 90px;
-  height: 90px;
+  width: 80px;
+  height: 80px;
 }
 #flexmenu {
   display: flex;
@@ -12,14 +12,39 @@ li:hover {
   font-weight: bolder;
 }
 /* SERVICES CSS */
+.container {
+  display: grid;
+  margin: auto;
+}
 #hello {
+  width: 16ch;
+  margin: auto;
+  animation: tuto 3s steps(22), blink 0.5s step-end infinite alternate;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-size: 45px;
+  font-family: "roboto", "sans-serif";
+}
+@keyframes tuto {
+  from {
+    width: 0;
+  }
+}
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
+/* #hello {
   margin: auto;
   width: 24rem;
   font-size: 45px;
   animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
-}
+} */
+
 @keyframes fadeInAnimation {
   0% {
     opacity: 0;
@@ -33,7 +58,7 @@ li:hover {
   margin-left: auto;
   margin-right: auto;
   width: 40rem;
-  animation: fadeInAnimation ease 5s;
+  animation: fadeInAnimation ease 7s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
@@ -82,7 +107,7 @@ h5 {
   #hello {
     font-size: 20px;
     margin: auto;
-    width: 11rem;
+    width: 16ch;
 
     font-weight: bolder;
   }
