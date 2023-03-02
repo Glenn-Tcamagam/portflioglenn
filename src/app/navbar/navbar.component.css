@@ -127,14 +127,20 @@ h5 {
   margin-left: 18rem;
   width: 30rem;
 }
+.card-body {
+  margin-top: 0.25rem;
+}
 #carte1 {
-  height: 3.5rem;
+  height: 4rem;
   transition: all ease-in-out 2s;
+}
+.card-body:hover {
+  margin-top: 0.5rem;
 }
 #carte1:hover {
   background-color: #0275d8;
   color: white;
-  height: 4rem;
+  height: 4.5rem;
 }
 #devwebcarte2 {
   border-left: 2px solid #0275d8;
@@ -142,14 +148,14 @@ h5 {
   width: 30rem;
 }
 #carte2 {
-  height: 3.5rem;
+  height: 4rem;
 
   transition: all ease-in-out 2s;
 }
 #carte2:hover {
   background-color: #0275d8;
   color: white;
-  height: 4rem;
+  height: 4.5rem;
 }
 #devwebcarte3 {
   border-left: 2px solid #0275d8;
@@ -157,13 +163,13 @@ h5 {
   width: 30rem;
 }
 #carte3 {
-  height: 3.5rem;
+  height: 4rem;
   transition: all ease-in-out 2s;
 }
 #carte3:hover {
   background-color: #0275d8;
   color: white;
-  height: 4rem;
+  height: 4.5rem;
 }
 #devwebcarte4 {
   border-left: 2px solid #0275d8;
@@ -171,13 +177,13 @@ h5 {
   width: 30rem;
 }
 #carte4 {
-  height: 3.5rem;
+  height: 4rem;
   transition: all ease-in-out 2s;
 }
 #carte4:hover {
   background-color: #0275d8;
   color: white;
-  height: 4rem;
+  height: 4.5rem;
 }
 
 /* responsive */
@@ -213,24 +219,24 @@ h5 {
   #devwebcarte1 {
     border-left: 2px solid #0275d8;
     margin: auto;
-    width: 16rem;
+    width: 17rem;
   }
 
   #devwebcarte2 {
     border-left: 2px solid #0275d8;
     margin: auto;
-    width: 16rem;
+    width: 17rem;
   }
 
   #devwebcarte3 {
     border-left: 2px solid #0275d8;
     margin: auto;
-    width: 16rem;
+    width: 17rem;
   }
 
   #devwebcarte4 {
     border-left: 2px solid #0275d8;
     margin: auto;
-    width: 16rem;
+    width: 17rem;
   }
 }
