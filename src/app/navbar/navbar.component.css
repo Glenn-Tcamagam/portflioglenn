@@ -1,6 +1,6 @@
 /* NAVBAR CSS */
 
-#flexmenu {
+/* #flexmenu {
   display: flex;
   margin-right: 2rem;
 }
@@ -12,22 +12,27 @@ li:hover {
 ul {
   list-style-type: none;
   color: white;
-}
+} */
 
 /* SERVICES CSS */
-.container {
+/* .container {
   display: grid;
   margin: auto;
+} */
+#hellobienvenue {
+  width: 100%;
+  background: linear-gradient(#d63384, pink);
+  height: 100vh;
 }
-#hello {
-  width: 16ch;
-  margin: auto;
-  animation: tuto 3s steps(22), blink 0.5s step-end infinite alternate;
-  white-space: nowrap;
-  overflow: hidden;
-  border-right: 3px solid;
-  font-size: 45px;
-  font-family: "roboto", "sans-serif";
+
+#textemachineaecrire {
+  text-decoration: none;
+  color: black;
+  font-size: 60px;
+}
+
+#positionmachineaecrire {
+  margin-left: 10rem;
 }
 @keyframes tuto {
   from {
@@ -60,18 +65,28 @@ ul {
 #presentation {
   margin-left: auto;
   margin-right: auto;
-  margin-top: 15rem;
+  margin-top: 2rem;
 
-  width: 40rem;
-  animation: fadeInAnimation ease 20s;
+  width: 25rem;
+  animation: fadeInAnimation ease 5s;
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
 #blocphotoettexte {
   display: flex;
+  margin-left: 10rem;
 }
 #blocphotoettexte img {
-  height: 50rem;
+  height: 25rem;
+  width: 30rem;
+}
+#apropos {
+  color: #0275d8;
+  margin: auto;
+  width: 8rem;
+  font-size: 30px;
+  font-weight: bolder;
+  /* color: #d63384; */
 }
 #service {
   margin: auto;
@@ -192,13 +207,7 @@ h5 {
   #glenn {
     margin-top: -0.3rem;
   }
-  #hello {
-    font-size: 30px;
-    margin: auto;
-    width: 16ch;
 
-    font-weight: bolder;
-  }
   #presentation {
     margin-left: auto;
     margin-right: auto;
@@ -211,6 +220,11 @@ h5 {
   #blocphotoettexte img {
     height: 42.5rem;
   }
+  #blocphotoettexte img {
+    height: 35rem;
+    width: 100%;
+  }
+
   #flexcard {
     display: initial;
   }
